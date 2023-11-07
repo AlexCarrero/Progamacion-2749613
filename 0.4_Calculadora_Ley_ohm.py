@@ -4,4 +4,4 @@ print("Ingrese el valor del voltaje y la resistencia")
 v=int(input("voltaje ="))
 r=int(input("resistencia ="))
 CalcularCorriente=v/r
-print("Calcular corriente :" ,v, "/" ,r, "=" ,CalcularCorriente,)
+print("Al conectar un resistor de" ,r,"(ohm)a una fuente de" ,v, "circulara una corriente de" ,CalcularCorriente,)
